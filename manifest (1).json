@@ -1,0 +1,63 @@
+{
+  "name": "StudyFlow — Planificador de Estudio",
+  "short_name": "StudyFlow",
+  "description": "Tu planificador inteligente de estudio. Organiza tareas, sigue tu progreso y estudia mejor.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0e1a",
+  "theme_color": "#7c5cfc",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva tarea",
+      "short_name": "Tarea",
+      "description": "Añadir una nueva tarea de estudio",
+      "url": "/?action=new-task",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Mi plan semanal",
+      "short_name": "Plan",
+      "description": "Ver el plan de estudio semanal",
+      "url": "/?action=plan",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
